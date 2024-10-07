@@ -13,13 +13,13 @@ function App() {
     <div className="App">
       <Routes>
         {toggle?
-        <><Route path='/countryinfo' element={<MainPage settoggle={settoggle} toggle={toggle} />} />
+        <><Route path='/' element={<MainPage settoggle={settoggle} toggle={toggle} />} />
         <Route path='/name/:country' element={<CountryDetail settoggle={settoggle} toggle={toggle}/>} />
         <Route path='/name/:country/:border' element={<Bordercountry settoggle={settoggle} toggle={toggle}/>} />
         </>
         
         :
-        <><Route path='/countryinfo' element={<MainPagee settoggle={settoggle} toggle={toggle}/>} />
+        <><Route path='/' element={<MainPagee settoggle={settoggle} toggle={toggle}/>} />
         <Route path='/name/:country' element={<CountryDetaillight settoggle={settoggle} toggle={toggle}/>} />
         <Route path='/name/:country/:border' element={<Bordercountryli settoggle={settoggle} toggle={toggle}/>} />
         </>
