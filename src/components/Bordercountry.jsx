@@ -20,7 +20,7 @@ function Bordercountry({ settoggle, toggle }) {
             <NavBar settoggle={settoggle} toggle={toggle} />
             <div className={`row ${style.country} mt-5 justify-content-evenly`}>
                 <div className={`col-lg-5 col-md-8 col-sm-8 mt-5 ${style.imgdet}`} >
-                    <Link to='/' className={`w-75 text-light border border-0 px-4 py-2 rounded ${style.back} text-decoration-none`}> <FontAwesomeIcon icon={faArrowLeft} className='text-light me-2' /> back</Link>
+                    <Link to='/countryinfo' className={`w-75 text-light border border-0 px-4 py-2 rounded ${style.back} text-decoration-none`}> <FontAwesomeIcon icon={faArrowLeft} className='text-light me-2' /> back</Link>
                     <img src={country[0]?.flags?.svg} style={{ marginTop: 4.5 + 'rem' }} alt="" />
                 </div>
                 <div className='col-lg-5 col-md-8 col-sm-8 mt-5' >
