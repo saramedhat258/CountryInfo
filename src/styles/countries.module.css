@@ -1,0 +1,30 @@
+.countryinfo{
+    padding: 0 !important;
+    background-color: #2B3743;
+    height: 400px;
+    color: white;
+    margin: 2rem 0 4rem;
+}
+.countryinfo img{
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+
+}
+.countryinfo h3,p{
+    padding-left: 2rem;
+}
+.countryinfo p span{
+    font-weight: 600;
+}
+@media(min-width:992px){
+    .countryinfo{
+        width: 21% !important;
+    }
+}
+@media((min-width:768px) and (max-width:992px)){
+    .countryinfo{
+        width: 31% !important;
+    }
+    
+}
