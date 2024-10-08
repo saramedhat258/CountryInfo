@@ -26,7 +26,7 @@ function Search({setregion,setsearch}) {
                     <Dropdown.Menu className='bg-white'>
                         <Dropdown.Item href="#" onClick={() => handleregion('Asia')}>Asia</Dropdown.Item>
                         <Dropdown.Item href="#" onClick={() => handleregion('Africa')}>Africa</Dropdown.Item>
-                        <Dropdown.Item href="#" onClick={() => handleregion('America')}>America</Dropdown.Item>
+                        <Dropdown.Item href="#" onClick={() => handleregion('america')}>America</Dropdown.Item>
                         <Dropdown.Item href="#" onClick={() => handleregion('Europe')}>Europe</Dropdown.Item>
                         <Dropdown.Item href="#" onClick={() => handleregion('Oceania')}>Oceania</Dropdown.Item>
                     </Dropdown.Menu>

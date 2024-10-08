@@ -9,7 +9,7 @@ function CountryDetail({settoggle,toggle}) {
     const param = useParams()
     const [country, setcountry] = useState({})
     useEffect(() => {
-        fetch(`https://restcountries.com/v3.1/name/${param.country}`)
+        fetch(`https://restcountries.com/v3.1/name/${param.country}?fullText=true`)
             .then(res => res.json())
             .then(data => setcountry(data))
     }, [param.country])
